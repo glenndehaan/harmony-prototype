@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    build: .
+    environment:
+      - "IP=192.168.1.10"
+    ports:
+      - "9097:9097"
