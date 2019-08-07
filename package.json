@@ -4,7 +4,7 @@
   "description": "Packages for harmony-prototype",
   "main": "src/index.js",
   "scripts": {
-    "start": "IP=192.168.11.11 9node ./src/index.js",
+    "start": "IP=192.168.11.119 node ./src/index.js",
     "dev": "IP=192.168.11.119 nodemon ./src/index.js"
   },
   "author": "Glenn de Haan",

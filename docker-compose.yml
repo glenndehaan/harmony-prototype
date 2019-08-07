@@ -3,6 +3,6 @@ services:
   app:
     build: .
     environment:
-      - "IP=192.168.1.10"
+      - "IP=192.168.11.119"
     ports:
       - "9097:9097"
